@@ -1,0 +1,40 @@
+<? xml version ="1.0" standalone = "yes" ?>
+<University>
+  <Student studentId='0' courses='CS336 CS357'>
+    <Name>Derek</Name>
+    <Address>
+      <Street>Footman Ln</Street>
+      <City>Poway</City>
+    </Address>
+  </Student>
+  <Student studentId='1' courses='CS336 CS445'>
+    <Name>John</Name>
+    <Address>
+      <Street>Boulder View Dr</Street>
+      <City>Poway</City>
+    </Address>
+  </Student>
+  <Teacher employeeId='2' courses='CS336'>
+    <Name>Jane</Name>
+    <Address>
+      <Street>Orange Dr</Street>
+      <City>San Luis Obispo</City>
+    </Address>
+  </Teacher>
+  <Teacher employeeId='3' courses='CS357 CS445'>
+    <Name>James</Name>
+    <Address>
+      <Street>Higuera St</Street>
+      <City>San Luis Obispo</City>
+    </Address>
+  </Teacher>
+  <Course course='CS336' teacher='2' students='0 1'>
+    <Name>Microprocessor System Design</Name>
+  </Course>
+  <Course course='CS357' teacher='3' students='0'>
+    <Name>Systems Programming</Name>
+  </Course>
+  <Course course='CS445' teacher='3' students='1'>
+    <Name>Theory of Computation</Name>
+  </Course>
+</University>

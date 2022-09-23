@@ -1,0 +1,69 @@
+{
+   "Student": 
+   [
+      {
+         "studentId": "0",
+         "courses": ["CS336", "CS357"],
+         "Name": "Derek",
+         "Address":
+         {
+            "Street": "Footman Ln",
+            "City": "Poway"
+         }
+      },
+      {
+         "studentId": "1",
+         "courses": ["CS336", "CS445"],
+         "Name": "John",
+         "Address": 
+         {
+            "Street": "Boulder View Dr",
+            "City": "Poway"
+         }
+      }
+   ],
+   "Teacher": 
+   [
+      {
+         "employeeId": "2",
+         "courses": ["CS336"],
+         "Name": "Jane",
+         "Address":
+         {
+            "Street": "Orange Dr",
+            "City": "San Luis Obispo"
+         }
+      },
+      {
+         "employeeId": "2",
+         "courses": ["CS357", "CS445"],
+         "Name": "James",
+         "Address":
+         {
+            "Street": "Higuera St",
+            "City": "San Luis Obispo"
+         }
+      }
+   ],
+   "Course":
+   [
+      {
+         "course": "CS336",
+         "teacher": "2",
+         "students": ["0", "1"],
+         "Name": "Microprocessor System Design"
+      },
+      {
+         "course": "CS357",
+         "teacher": "3",
+         "students": ["0"],
+         "Name": "Systems Programming"
+      },
+      {
+         "course": "CS445",
+         "teacher": "3",
+         "students": ["1"],
+         "Name": "Theory of Computation"
+      }
+   ]
+}
